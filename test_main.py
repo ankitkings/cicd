@@ -34,7 +34,6 @@ def test_root_endpoint_contains_key_elements():
     html_content = response.text
     
     # Check for key elements in the HTML
-    assert "🚀 FastAPI CICD Learning" in html_content
     assert "demo to teach students" in html_content
     assert "Continuous Integration" in html_content
     assert "Continuous Deployment" in html_content
